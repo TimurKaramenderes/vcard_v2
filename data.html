@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<head>
+    <style>
+
+        @font-face {
+            font-family: 'Freight';
+            src: url(./FreightBigProLight-Regular.otf);
+        }
+        body,html{
+            background-color:#ffffff;
+            margin: 0;
+            height: 100%;
+        }
+
+          .container_anim{
+            position: relative;
+            flex-direction: column;
+            padding:0;
+            margin: auto;
+            left: 0px;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+
+        #lottie{
+           
+            width:400px;
+            height:400px;
+            display: flex;
+            overflow: hidden;
+            transform: translate3d(0,0,0);
+            text-align: center;
+            opacity: 1;
+        }
+        #url{
+            text-decoration: none;
+            font-family: 'Freight'; /* https://github.com/kalaschnik/adobe-fonts-revealer */
+            font-size: 1.5rem;
+            color: black;
+            opacity: 0%;
+        }
+
+        #url visited{
+            color: black;
+        }
+      
+
+    </style>
+</head>
+<body>
+
+<div class="container_anim">
+<div id="lottie"></div>
+<a href="https://www.behance.net/_babings_" id="url">Want to know my name?</a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="lottie.js"></script>
+<script src="script.js"></script>  
+</body>
+</html>
